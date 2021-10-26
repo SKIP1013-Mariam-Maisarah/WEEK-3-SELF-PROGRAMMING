@@ -1,0 +1,41 @@
+package numericData;
+
+/*
+ * Add five integers and display their sum.
+ */
+ // Save as "Exercise1 java"
+public class Exercise1 {
+
+	public static void main(String[] args) { 
+		// TODO Auto-generated method stub
+		int number1 = 11;
+		int number2 = 22;
+		int number3 = 33;
+		int number4 = 44;
+		int number5 = 55;
+		double number6 = 66;
+		double number7 = 88;
+		float number8 = 99;
+		float number9 = 200;
+		int sum, avg;
+		double div, mul;
+		float div2, sum2;
+		
+		sum = number1 + number2 + number3 + number4 + number5; 
+		avg = sum/5;
+		div = number7/number6;
+		div2 = number9/number8;
+		mul = number1*number2*number3*number4*number5*number6*number7*number8*number9;
+		sum2 = (number1*number2)/number3;
+		 
+		System.out.println("The sum is: " + sum);
+		System.out.println("The average is: " + avg);
+		System.out.printf("The divide number is: %.2f " , div);
+		System.out.printf("\nThe divide float number is: %.2f " , div2);
+		System.out.printf("\nThe multiply is: %.2f " , mul);
+		System.out.println("\nThe sum is: " + sum2);
+		
+
+	}
+
+}
