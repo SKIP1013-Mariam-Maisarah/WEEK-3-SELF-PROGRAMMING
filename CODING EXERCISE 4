@@ -1,0 +1,26 @@
+package numericData;
+
+class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double number1 = 3.85;
+		double number2 = 3.77;
+		double number3 = 4.00;
+		double sum;
+		String name = "Mariam Maisarah Binti Abd Manan";
+		
+		sum = (number1 + number2 + number3)/3;
+		
+		System.out.println("Name: " + name);
+		System.out.println("University: Universiti Utara Malaysia");
+		System.out.println("Matrix no: F01378");
+		System.out.println("\nGPA Sem 1: " + number1);
+		System.out.println("GPA Sem 2: " + number2);
+		System.out.println("GPA Sem 3: " + number3);
+		System.out.printf("\nThe CGPA is: %.2f " , sum);
+				
+
+	}
+
+}
